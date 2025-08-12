@@ -15,7 +15,7 @@ export const LoginPage = () => {
       {/* Right Side */}
       <div className="flex w-full lg:w-1/2 bg-gray justify-center items-center p-10">
         <div className="w-full max-w-sm">
-          <h2 className="text-3xl font-bold text-purple-700 mb-2">Login</h2>
+          <h2 className="text-3xl font-bold text-primary mb-2">Login</h2>
 
           {/* Form */}
           <LoginFormComponent />
@@ -23,11 +23,11 @@ export const LoginPage = () => {
           {/* Terms */}
           <p className="mt-6 text-xs text-black text-center">
             By signing up, I agree to the{" "}
-            <a href="#" className="text-purple-600 hover:underline">
+            <a href="#" className="text-primary hover:underline">
               Terms of Service
             </a>{" "}
             and{" "}
-            <a href="#" className="text-purple-600 hover:underline">
+            <a href="#" className="text-primary hover:underline">
               Privacy Policy
             </a>
             .

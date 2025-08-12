@@ -20,7 +20,7 @@ export const LoginFormComponent = () => {
           placeholder="Sales ID/Username/Email"
           value={ID}
           onChange={(e) => setID(e.target.value)}
-          className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           required
         />
 
@@ -30,7 +30,7 @@ export const LoginFormComponent = () => {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 pr-10"
+            className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary pr-10"
             required
           />
           <span
@@ -43,7 +43,7 @@ export const LoginFormComponent = () => {
 
         <button
           type="submit"
-          className="w-full py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
+          className="w-full py-3 bg-primary text-white rounded-lg cursor-pointer hover:bg-primary-hover"
         >
           Sign In
         </button>
