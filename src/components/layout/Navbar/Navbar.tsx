@@ -8,7 +8,7 @@ const Navbar = (props: INavbarGeneralPropsType[]) => {
         {props.map((item, index) => {
           return (
             <Link
-              key={index}
+              key={index + 1}
               to={{
                 pathname: item.pathname,
                 search: item.searchQuery,
