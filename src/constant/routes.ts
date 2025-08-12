@@ -5,4 +5,6 @@ export const ADMIN_STOCK_ROUTE_NAME = "/admin/stock";
 export const ADMIN_TRANSACTION_ROUTE_NAME = "/admin/transaction";
 export const ADMIN_USER_ROUTE_NAME = "/admin/user";
 
+export const AUTH_LOGIN = "/auth/login";
+
 export const BARISTA_KITCHEN_ROUTE_NAME = "/barista/kitchen";
